@@ -12,8 +12,9 @@ Em desenvolvimento
 ## 📌 Funcionalidades atuais
 - Tela inicial
 - Personagem renderizado
+- Personagem com Sprite
 
 ## 📈 Próximos passos
-- Movimentação
+- Sprites de ambiente
 - Colisão
 - Sistema de combate
