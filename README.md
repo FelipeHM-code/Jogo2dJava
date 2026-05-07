@@ -22,6 +22,6 @@ Para garantir um código limpo e modular, o desenvolvimento foca em:
 * **Interfaces e Mapeamento:** Estruturação para facilitar a expansão do mapa e novas funcionalidades.
 
 ## 🛠️ Como rodar o projeto
-1. Clone o repositório: `git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git`
+1. Clone o repositório: `git clone https://github.com/FelipeHM-code/Jogo2dJava`
 2. Importe o projeto em sua IDE (IntelliJ, Eclipse ou VS Code).
 3. Execute a classe principal (Main).
