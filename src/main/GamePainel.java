@@ -22,13 +22,21 @@ public class GamePainel extends JPanel implements Runnable {
 	public final int screenWidth = tileSize * maxScreenCol;
 	public final int screenHeigth = tileSize * maxScreenRow;
 	
+	
+	//config do mundo
+	public final int maxWorldCol = 50;
+	public final int maxWorldRow = 50;
+	public final int worldWidth = tileSize * maxWorldCol;
+	public final int worldHeigth = tileSize * maxWorldRow;
+	
+	
 	//FPS
 	int FPS = 60;
 	
 	TileManager tileM = new TileManager(this);
 	KeyHandler keyH = new KeyHandler();
 	Thread gameThread;
-	Player player = new Player(this,keyH);
+	public Player player = new Player(this,keyH);
 	
 	
 	public GamePainel() {
@@ -46,40 +54,6 @@ public class GamePainel extends JPanel implements Runnable {
 	}
 
 	@Override
-	/*public void run() {
-		while(gameThread != null) {
-			
-			double drawInterval = 1000000000/FPS; //aqui atualiza os desenhos 0.0166x por sec
-			double nextDrawTime = System.nanoTime()+ drawInterval;
-			
-			update();//atualiza as informacoes e posicoes do personagem
-			
-			
-			repaint();//desenha na tela enquanto atualiza a informacao
-			
-			
-			
-			
-			
-			try {
-				double remainingTime = nextDrawTime - System.nanoTime();
-				remainingTime = remainingTime/1000000; // convertendo de nanosec para milisec
-				
-				if(remainingTime <0) {
-					remainingTime =0;
-				}
-				
-				Thread.sleep((long) remainingTime);
-				
-				nextDrawTime += drawInterval;
-			} catch (InterruptedException e) {
-				
-				e.printStackTrace();
-			}
-		
-		}
-		
-	}*/
 	
 	public void run() { //testando outro tipo de loop mais simples e igualmente funcional
 		double drawInterval = 1000000000/FPS;
