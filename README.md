@@ -14,6 +14,7 @@ O projeto está evoluindo! As atualizações mais recentes incluem:
     - Criação de elementos de cenário: **Grama** 🌱, **Água** 🌊 e **Pedras** 🪨.
 - **🖥️ Renderização:** Integração de todos os elementos visuais diretamente na janela do jogo, garantindo que o cenário e o personagem interajam visualmente.
 - **🗺️ Mapa-mundi: ** Foi adicionado uma noca funcao onde agora ele le mapas e o converte no jogo, tambem adicionamos uma camera movel onde segue o personagem.
+- **💥 Apos mais um update:** Agora temos colisao nos objetos, foi comentado no codigo oque cada parte faz para compreender melhor,
 
 ## 🧠 Conceitos de POO Aplicados
 
